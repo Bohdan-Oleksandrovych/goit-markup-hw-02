@@ -1,0 +1,218 @@
+:root {
+  --primeri-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --dark-color: #000000;
+  --batton-background-color: #f5f4fa;
+}
+
+body {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  background: var(--white-color);
+  color: var(--dark-color);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* Шапка */
+
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.1;
+  color: var(--dark-color);
+}
+.logo-web {
+  color: var(--accent-color);
+}
+/* Навигация */
+
+.site-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .active {
+  color: var(--accent-color);
+}
+.adress .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--primeri-text-color);
+}
+.adress .link:focus,
+.adress .link:hover {
+  color: var(--accent-color);
+}
+
+/* Герой */
+
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3;
+  color: var(--white-color);
+}
+
+/* button */
+
+.button.index {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+}
+.button.portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button.active:hover,
+.button.active:focus {
+  color: var(--title-text-color);
+  background-color: var(--batton-background-color);
+  border-radius: 4px;
+}
+.button.primari:hover,
+.button.primari:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;
+}
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--batton-background-color);
+  border-radius: 4px;
+}
+
+/* Особенности */
+
+.feature-heading {
+  display: none;
+}
+.feature .head {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.feature .text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--primeri-text-color);
+}
+
+/* Чем мы занимаемся */
+
+.images-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+/* Наша команда */
+
+.team {
+  background-color: var(--white-color);
+}
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.team .head {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.team .text {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primeri-text-color);
+}
+
+/* Подвал */
+
+.foot {
+  background-color: #2f303a;
+}
+.foot-adress {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+.foot .link {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.foot .link:hover,
+.foot .link:focus {
+  color: var(--accent-color);
+}
+.foot .logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.1;
+  color: var(--white-color);
+}
+/* Проекты */
+.progect .head {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.progect .text {
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--primeri-text-color);
+}
